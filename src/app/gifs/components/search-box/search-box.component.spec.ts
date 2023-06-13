@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GifListComponent } from './gif-list.component';
+import { SearchBoxComponent } from './search-box.component';
 
-describe('GifListComponent', () => {
-  let component: GifListComponent;
-  let fixture: ComponentFixture<GifListComponent>;
+describe('SearchBoxComponent', () => {
+  let component: SearchBoxComponent;
+  let fixture: ComponentFixture<SearchBoxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GifListComponent ]
+      declarations: [ SearchBoxComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GifListComponent);
+    fixture = TestBed.createComponent(SearchBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
